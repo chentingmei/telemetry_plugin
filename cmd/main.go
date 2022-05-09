@@ -7,7 +7,8 @@ import (
 	"time"
 
 	// TODO: import your plugins
-	 _ "https://github.com/chentingmei/telemetry_test/blob/f8a7d1b7062dcd588b4fb6b94cd2eb487fb4a41e/telemetry_test/plugins/inputs/gnmi/gnmi.go"
+	_ "github.com/chentingmei/telemetry_plugin/blob/fb3294661c7b633c0bd972d439090252ac990399/plugins/inputs/gnmi/gnmi.go"
+
 
 	"github.com/influxdata/telegraf/plugins/common/shim"
 )
