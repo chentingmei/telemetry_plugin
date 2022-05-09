@@ -28,7 +28,7 @@ import (
 	jsonparser "github.com/influxdata/telegraf/plugins/parsers/json"
 )
 
-// gNMI plugin instance
+// gNMI plugin instance====
 type GNMI struct {
 	Addresses     []string          `toml:"addresses"`
 	Subscriptions []Subscription    `toml:"subscription"`
